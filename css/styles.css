@@ -1,0 +1,165 @@
+main, aside, div, section, ul, li, h2, h3, h4 { 
+    border: 0px solid;
+}
+
+:root {
+    --azul-aside: #001b34;
+    --azul2: rgba(12, 78, 145, 0.966);
+    --gris-linea: #d3d3d3;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    margin: 20px auto;
+    display: flex;
+    width: 595.28px;   
+    height: 841.89px;  
+    height: auto;
+    background: #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+
+
+aside {
+    width: 35%;       
+    background-color: var(--azul-aside);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 3%;  
+}
+
+#foto-perfil {
+    margin-top: 3%;
+    margin-left: 20%;
+    width: 50%;    
+    border-radius: 30%;
+    border: 0.4vw solid #fff;  
+}
+
+.habilidades-aside {
+    width: 90%;
+    margin-top: 5%;
+    font-size: 0.8rem;
+    margin-bottom: 0.5vh;
+}
+
+h1, h2, h3, p {
+    margin: 0.5% 0;
+}
+
+.habilidades-aside h3 {
+    display: inline-block;
+    border-bottom: 0.3vh solid #fafbfc;
+    padding-bottom: 0.5vh;
+}
+
+.habilidades-aside ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.habilidades-aside li {
+    font-size: 0.9rem;
+    margin-bottom: 0.5vh;
+}
+
+
+section {
+    width: 65%;     
+    background-color: #fff;
+    color: #242323;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 0.9rem;
+}
+
+#portada {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center;      
+    width: 100%;
+    height: auto;
+    background-color: rgba(236, 237, 238, 0.719);
+    text-align: center;
+    margin-bottom: 3%;
+    padding: 3% 0;
+}
+
+#portada h1 {
+    font-size: 2rem;
+    margin-bottom: 1%;
+}
+
+#portada h3 {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.linea-portada {
+    width: 25%;         
+    border-top: 0.5vh solid #515151;
+    margin: 2% auto;
+}
+
+
+.seccion-resumen, .seccion-experiencia, .seccion-estudios {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.seccion-experiencia h2, .seccion-estudios h2, .seccion-resumen h2 {
+    display: inline-block;
+    border-bottom: 0.3vh solid #001b34;
+    padding-bottom: 0.5vh;
+    font-size: 1.2rem;
+}
+
+
+.experiencia-titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.experiencia-titulo h4 {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #222;
+}
+
+.experiencia-fecha {
+    font-size: 0.8rem;
+    color: var(--azul-aside);
+    font-weight: bold;
+}
+
+.seccion-experiencia p, .seccion-estudios p {
+    font-size: 0.8rem;
+    margin-bottom: 2%;
+    color: #444;
+}
+
+ul {
+    margin-left: 5%;
+}
+
+li {
+    margin-bottom: 1%;
+}
